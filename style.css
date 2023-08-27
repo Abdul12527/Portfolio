@@ -96,15 +96,15 @@
 }
 #image{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 
     
 }
 #image img{
     display: flex;
     margin: 0;
-    width: 500px;
-    height: 400px;
+    width: 45%;
+    height: 50%;
 }
 
 #intro{
@@ -112,6 +112,8 @@
     flex-direction: column;
     text-align: justify;
     padding: 10px;
+    width: 50%%;
+    height: 50%;
     
 }
 
