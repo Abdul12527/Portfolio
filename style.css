@@ -86,6 +86,8 @@
     box-shadow: 0 0 15px white;
 }
 
+/* About */
+
 #about{
     display:flex;
     flex-direction: column;
@@ -117,7 +119,7 @@
     
 }
 
-@media screen and (max-width: 500px)  {
+@media screen and (max-width: 550px)  {
     #image{
         display: flex;
          flex-direction: column; 
@@ -149,6 +151,8 @@
     text-align: center;
 }
 
+/* Portfolio */
+
 #portfolio{
     display: flex;
     flex-direction: column;
@@ -176,10 +180,11 @@
     justify-content: center;
 
     text-align: center;
+    transition: 0.6s ease;
     z-index: 0;
 }
 #bg :hover{
-    box-shadow: 0 0 15px white;
+    box-shadow: 0 0 10px white;
 }
 
 #bg::before {
@@ -193,7 +198,7 @@
     opacity: 0.7;
     z-index: -1;
 }
-#bg h3{
+#bg h2{
     color: white;
     font-size: 3rem;
     font-weight: bolder;
@@ -201,3 +206,49 @@
     padding: 30%;
 
 }
+
+/* Contact */
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px;
+}
+
+.form-controle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+
+}
+
+.input{
+    margin: 15px;
+    padding: 12px;
+    width: 30%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#Send{
+    width: 8%;
+    height: 25px;
+    cursor: pointer;
+    margin: 17px;
+    outline:none;
+    border: none;
+    border-radius: 15px;
+    justify-self: center;
+    text-align: center;
+}
+#Send:hover{
+    box-shadow: 0 0 15px white;
+    color: black;
+
+
+}
+
