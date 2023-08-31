@@ -156,6 +156,24 @@
        
         
     }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    .navbar ul{
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 20px 0px;
+    }
     #bg {
         position: relative;
         width: 100%;
