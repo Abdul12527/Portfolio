@@ -160,10 +160,10 @@
     }
     .logos{
         top:20%;
-        right: 30%;
+        right: 28%;
     }
     #home::before{
-        height: 111.5vh;
+        height: 121.5vh;
     }
     #image{
         display: flex;
@@ -281,6 +281,12 @@
         color: white;
         padding: 20px;
         width: 100%;
+    }
+    .form-controle .input{
+        width: 70%;
+    }
+    #send{
+        width:30%;
     }
     
 }
